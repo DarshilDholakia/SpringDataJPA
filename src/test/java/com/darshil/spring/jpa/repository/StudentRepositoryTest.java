@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-//@DataJpaTest
+//@DataJpaTest - will help test repository layer and once this is finished, it will flush the new/updated data from DB
 class StudentRepositoryTest {
     @Autowired
     private StudentRepository studentRepository;
